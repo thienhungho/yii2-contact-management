@@ -5,12 +5,12 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model thienhungho\ContactManagement\modules\ContactBase\Contact */
 
-$this->title = __t('app', 'Update {modelClass}: ', [
+$this->title = t('app', 'Update {modelClass}: ', [
     'modelClass' => 'Contact',
 ]) . ' ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => __t('app', 'Contact'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => t('app', 'Contact'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = __t('app', 'Update');
+$this->params['breadcrumbs'][] = t('app', 'Update');
 ?>
 <div class="contact-update">
 

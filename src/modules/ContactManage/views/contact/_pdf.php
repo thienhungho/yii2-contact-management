@@ -8,14 +8,14 @@ use kartik\grid\GridView;
 /* @var $model thienhungho\ContactManagement\modules\ContactBase\Contact */
 
 $this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => __t('app', 'Contact'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => t('app', 'Contact'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="contact-view">
 
     <div class="row">
         <div class="col-sm-9">
-            <h2><?= __t('app', 'Contact').' '. Html::encode($this->title) ?></h2>
+            <h2><?= t('app', 'Contact').' '. Html::encode($this->title) ?></h2>
         </div>
     </div>
 

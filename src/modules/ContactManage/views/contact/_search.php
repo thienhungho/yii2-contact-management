@@ -31,7 +31,7 @@ use yii\widgets\ActiveForm;
         'ajaxConversion' => true,
         'options' => [
             'pluginOptions' => [
-                'placeholder' => __t('app', 'Choose Author Birth Date'),
+                'placeholder' => t('app', 'Choose Author Birth Date'),
                 'autoclose' => true
             ]
         ],
@@ -46,8 +46,8 @@ use yii\widgets\ActiveForm;
     <?php /* echo $form->field($model, 'content')->textarea(['rows' => 6]) */ ?>
 
     <div class="form-group">
-        <?= Html::submitButton(__t('app', 'Search'), ['class' => 'btn btn-primary']) ?>
-        <?= Html::resetButton(__t('app', 'Reset'), ['class' => 'btn btn-default']) ?>
+        <?= Html::submitButton(t('app', 'Search'), ['class' => 'btn btn-primary']) ?>
+        <?= Html::resetButton(t('app', 'Reset'), ['class' => 'btn btn-default']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
