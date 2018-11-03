@@ -51,7 +51,7 @@ yii migrate/up
 Config
 ------------
 
-Add module UserManage to your `AppConfig` file.
+Add module ContactManage to your `AppConfig` file.
 
 ```php
 ...
