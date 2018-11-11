@@ -81,4 +81,9 @@ Modules
 Functions
 ------------
 
-[Core](https://github.com/thienhungho/yii2-user-management/tree/master/src/functions/core.php)
+[Core](https://github.com/thienhungho/yii2-contact-management/tree/master/src/functions/core.php)
+
+Models
+------------
+
+[Contact](https://github.com/thienhungho/yii2-contact-management/tree/master/src/models/Contact.php)
