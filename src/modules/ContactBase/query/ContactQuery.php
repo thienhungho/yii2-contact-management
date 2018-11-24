@@ -7,7 +7,7 @@ namespace thienhungho\ContactManagement\modules\ContactBase\query;
  *
  * @see \thienhungho\ContactManagement\modules\ContactBase\query\Contact
  */
-class ContactQuery extends \yii\db\ActiveQuery
+class ContactQuery extends \thienhungho\ActiveQuery\models\ActiveQuery
 {
     /*public function active()
     {
